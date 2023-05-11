@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="main_heading">Registration Form</h1>
+    <hr><br>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter your Name">
+        <br/><br/>
+        <input type="email" placeholder="Enter the email id">
+        <br/><br/>
+        <label for="DOB">
+            DOB-<input type="date">
+        </label><br><br>
+        <label for="Address">
+           Address- <input type="text" placeholder="Enter your full address">
+        </label><br><br>
+        <label for="Contact No">
+            Contact NO-<input type="tel" placeholder="mobile no">
+        </label><br><br>
+        <fieldset>
+            <legend>Gender</legend>
+        <label for="id3">
+            <input type="radio" value="Male" name="Gender">Male
+        </label><br><br>
+        <label for="id4">
+        <input type="radio" value="Male" name="Gender">Female
+        </fieldset>
+        </label><br><br>
+        <h5>Select your class</h5>
+        <label for="id1">
+        <input type="radio" value="Class XI" name="class" id="id1">Class XI
+        </label>
+        <br><br>
+        <label for="id2">
+        <input type="radio" value="Class XII" name="class" id="id2">Class XII
+    </label>
+    <br><br>
+    <h2>Enter your grades in class 10th </h2>
+    <label for="maths">
+        Maths-<input type="text" placeholder=" In percentage">
+    </label>
+    <br><br>
+    <label for="Science">
+        Science-<input type="text" placeholder=" In percentage">
+    </label>
+    <br><br>
+    <label for="Social Sceince">
+        Social Science-<input type="text" placeholder=" In percentage">
+    </label>
+    <br><br>
+    <label for="English">
+        English-<input type="text" placeholder=" In percentage">
+    </label>
+    <br><br>
+    <label for="Computer">
+        Computer-<input type="text" placeholder=" In percentage">
+    </label>
+    <br><br>
+    <h2>Select your Fav Subject</h2>
+       <label for="Maths">
+        <input type="checkbox" value="Maths" name="subject" id="101">Maths
+        </label>
+        <br><br>
+        <label for="Phy">
+            <input type="checkbox" value="Phy" name="subject" id="102">Phy
+        </label>
+        <br><br>
+        <label for="Chem">
+            <input type="checkbox" value=Chem" name="subject" id="103">Chem
+        </label>
+        <br><br>
+        <label for="CS">
+            <input type="checkbox" value="CS" name="subject" id="104">CS
+        </label>
+        <br><br>
+       <h2> select your city</h2>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">mumbai</option>
+            <option value="Bengluru">Bengluru</option>
+            <option value="Kolkata">Kolkata</option>
+        </select>
+        <br><br>
+        <textarea name="Feedback" id="101" placeholder="Please give your valuable feedback"
+        row="15"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+    </div>
+</body>
+</html>
